@@ -1,0 +1,33 @@
+<div class="container">
+  <h1>Arma tu PC</h1>
+
+  <div class="caracteristica">
+    <label for="ram">RAM:</label>
+    <select id="ram" [(ngModel)]="ram" (change)="seleccionarRAM($event)">
+      <h1>sintaxis version anteriores</h1>
+      <option *ngFor="let opcion of opcionesRAM" [value]="opcion">{{opcion}}</option>
+    </select>
+  </div>
+
+  <div class="caracteristica">
+    <label for="procesador">Procesador:</label>
+    <select id="procesador" [(ngModel)]="procesador" (change)="seleccionarProcesador($event)">
+      <option *ngFor="let opcion of opcionesProcesador" [value]="opcion">{{opcion}}</option>
+    </select>
+  </div>
+
+  <div class="caracteristica">
+    <label for="tarjetaGrafica">Tarjeta Gráfica:</label>
+    <select id="tarjetaGrafica" [(ngModel)]="tarjetaGrafica" (change)="seleccionarTarjetaGrafica($event)">
+      <option *ngFor="let opcion of opcionesTarjetaGrafica" [value]="opcion">{{opcion}}</option>
+    </select>
+  </div>
+
+  <div class="caracteristica">
+    <label for="discoDuro">Disco Duro:</label>
+    <select id="discoDuro" [(ngModel)]="discoDuro" (change)="seleccionarDiscoDuro($event)">
+      <option *ngFor="let opcion of opcionesDiscoDuro" [value]="opcion">{{opcion}}</option>
+    </select>
+  </div>
+
+  <div class="caracteristica

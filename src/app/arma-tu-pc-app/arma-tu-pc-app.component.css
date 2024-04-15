@@ -1,0 +1,24 @@
+/* arma-tu-pc.component.css */
+.container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .caracteristica {
+    margin-bottom: 15px;
+  }
+  
+  .caracteristica label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .precio-total {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  
